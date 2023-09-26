@@ -1,7 +1,7 @@
 // Daniel Thibault
 // daniel.thibault@csu.fullerton.edu
 // @JustDanielThanks
-// @pachmi
+// Partners: @pachmi
 
 #include <iostream>
 
@@ -38,7 +38,7 @@ int PromptForInt(std::string query) {
   // X: write statements to implement this function, and delete this comment
   // Hint: On Canvas, find the sample code named cpsc120_prompt.cc
   std::cout << query;
-  int answer;
+  int answer{};
   std::cin >> answer;
   return answer;
   // X: replace this return statement with one that actually works
