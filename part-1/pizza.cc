@@ -13,21 +13,22 @@ double PizzaUnitPrice(double diameter, double price) {
   double radius{diameter / 2.0};
   const double kpi{3.1415926};
   double area{kpi * (radius * radius)};
-  double unit_price{price / area}; 
-  return unit_price;  // X: replace this return statement with one that actually works
+  double unit_price{price / area};
+  return unit_price;  // X: replace this return statement with one that actually
+                      // works
 }
 
 int main(int argc, char* argv[]) {
   // X: Declare a variable to hold pizza diameter;
   // print the prompt "Enter pizza diameter in inches: "; and
   // input a number from standard input into the variable.
-  double pizza_diameter{0};
+  double pizza_diameter{0.0};
   std::cout << "Enter pizza diameter in inches: ";
   std::cin >> pizza_diameter;
   // X: Declare a variable to hold pizza price;
   // print the prompt "Enter pizza price in dollars: "; and
   // input a number from standard input into the variable.
-  double pizza_price{0};
+  double pizza_price{0.0};
   std::cout << "Enter pizza priced in dollars: ";
   std::cin >> pizza_price;
   // X: Declare a variable to hold unit price;
