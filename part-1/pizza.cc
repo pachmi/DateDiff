@@ -1,8 +1,7 @@
-// X: add a header
 // Daniel Thibault
 // daniel.thibault@csu.fullerton.edu
 // @JustDanielThanks
-// @pachmi
+// Partners: @pachmi
 
 #include <iostream>
 
